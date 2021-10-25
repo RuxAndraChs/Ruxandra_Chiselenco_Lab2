@@ -44,17 +44,16 @@
         </Canvas>
         <Menu x:Name="mnuMain" HorizontalAlignment="Left" Height="21" VerticalAlignment="Top"
 Width="131" Margin="0,26,0,0">
-            <MenuItem Header="File" RenderTransformOrigin="0.561,0.472">
-                <MenuItem Header="Exit"/>
-            </MenuItem>
+            <MenuItem Header="File" RenderTransformOrigin="0.561,0.472"/>
             <MenuItem Header="_Doughnuts">
-                <MenuItem Header="Make">
+                <MenuItem Header="Make" Click="MenuItem_Click">
                     <MenuItem Header="Raised">
                         <MenuItem x:Name="glazedMenuItem" Header="Glazed"/>
                         <MenuItem x:Name="sugarMenuItem" Header="Sugar"/>
                     </MenuItem>
                     <MenuItem Header="Filled"/>
                 </MenuItem>
+                <MenuItem Header="Stop" />
             </MenuItem>
         </Menu>
     </Grid>

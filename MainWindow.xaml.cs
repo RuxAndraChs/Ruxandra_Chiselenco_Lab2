@@ -29,5 +29,10 @@ namespace Chiselenco_Ruxandra_Lab2
         {
 
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
